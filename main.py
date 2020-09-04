@@ -18,6 +18,7 @@ from machine import I2C, Pin, SPI, UART
 import os
 
 
+
 def show_file(filename):
     """显示文件内容"""
     with open(filename, 'r') as f:
